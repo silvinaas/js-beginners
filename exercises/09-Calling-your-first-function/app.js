@@ -4,3 +4,5 @@ function isOdd(myNumber)
 }
 
 // Your code below:
+var resultado = isOdd(45345);
+console.log(resultado);
