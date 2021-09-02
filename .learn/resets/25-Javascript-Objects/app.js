@@ -32,13 +32,7 @@ function addAllFamilyLuckyNumbers(anArray){
 }
 
 //Enter all your code here:
-person.lucky_numbers[3] = "33";
-family.Push({name: "Jimmy",
-lastname: "Doe",
-age: 13,
-gender: "male",
-lucky_numbers: [ 1, 2, 3, 4],
-significant_other: null})
+
 
 //Do not make changes below:
 console.log(addAllFamilyLuckyNumbers(family.members)); 
