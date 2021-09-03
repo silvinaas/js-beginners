@@ -1,11 +1,24 @@
-const letitbe = () =>{
-    for (let i=1;i<=4;i++){
-       console.log (" let it be,");
+function repeatLetItBe(veces) {
+    let string = "";
+    for (let i = 0; i < veces; i++) {
+        string = string + "let it be, ";
     }
+    return string;
 }
 
-function sing(){
-    console.log(letitbe() + " whisper words of wisdom," + letitbe() + " let it be," + " there will be an answer," + " let it be");
+
+function sing() {
+    let output = "";
+
+    output = output + repeatLetItBe(4) ;
+
+    output = output + "whisper words of wisdom, " ;
+    output = output + repeatLetItBe(5) ;
+
+
+    output = output + "there will be an answer, let it be";
+
+    return output;
 }
 
 //Your code above ^^^
